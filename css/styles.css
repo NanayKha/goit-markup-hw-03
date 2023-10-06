@@ -9,6 +9,8 @@ a[href="#WEBSTUDIO"] {
     gap: 76px;
 }
 
+/*GENERAL TOPLINE*/
+
 .link {
     color: var(--NAVY-BLUE, #2E2F42);
     /* Body Medium */
@@ -16,12 +18,12 @@ a[href="#WEBSTUDIO"] {
     line-height: 1.5;
     text-decoration: none;
     letter-spacing: 0.32px;
-
 }
 
 .link:focus {
     color: var(--OCEAN, #404BBF);
 }
+
 
 .link-contact {
     color: var(--SLATE, #434455);
@@ -49,7 +51,6 @@ div.container {
     justify-content: space-between;
     height: 24px;
     gap: 40px;
-    
 }
 
 .main-link {
@@ -59,33 +60,19 @@ div.container {
     
 }
 
+/*END OF GENERAL*/
+
 ul {
     list-style: none;
 } 
 
 
-button {
-    color: var(--WHITE, #FFF);
-    cursor: pointer;
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    border-style: none;
-       
-    /* Button Text */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
-}
-
+/*PORTFILIO-PROJECT CARDS*/
 
 .button-container {
     color: var(--IRIS, #4D5AE5);
     text-align: center;
     background: var(--CLOUD, #F4F4FD);
-
     /* Button Text */
     font-family: Roboto;
     font-size: 16px;
@@ -102,6 +89,36 @@ button {
 
 }
 
+/*PORTFOLIO BUTTONS*/
+button {
+    color: var(--WHITE, #FFF);
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    border-style: none;
+    display: inline-block;
+    justify-content: center;
+       
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.filter-btn {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px
+}
+/*END OF PORTFOLIO*/
+
+/*MAIN PAGE*/
+
 body {
     color: var(--SLATE, #434455);
     /* Body */
@@ -113,21 +130,29 @@ body {
     width: 1158px;
 }
 
+
+/*HERO*/
+.hero {
+    width: 1158px;
+    /*height: 600px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;*/
+}
+
 .main-heading {
     background: var(--NAVY-BLUE, #2E2F42);
     border: 0;
     color: var(--WHITE, #FFF);
     width: 1158px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /*height: 600px;*/
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
     margin: 0;
 }
 
-.li {
-    
-}   
+
  
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -160,11 +185,9 @@ footer {
     font-weight: 400;
     line-height: 1.50;
     width: 1158px;
-    height: 312px;
-    margin: 0;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    padding-left: 156px;
     
 }
 
