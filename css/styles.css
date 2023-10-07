@@ -137,22 +137,53 @@ ul {
     align-items: flex-start;
     gap: 8px;
     padding-inline: 20px;
+    margin-top: 52px;
+}
+
+.image1-src {
+    margin-right: 12px;
+    width: 360px;
+    height: 300px;
+    
+}
+.image2-src {
+    margin-right: 12px;
+    margin-right: 12px;
+    width: 360px;
+    height: 300px;
 }
 
 
-.team-card {
-    
-    
+.section3 {
+    background: var(--CLOUD, #F4F4FD);
+    width: 1158px;
+    height: 732px;
+    flex-shrink: 0;
+    text-align: center;
+    padding-top:20px;
+   
 }
 
-.card-content {
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
+.card {
+    
+}
+ul.content-card {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    width: 232px;
+    gap: 8px; 
+}
+
+ul.team-card {
+    display: flex;
     align-items: center;
     gap: 32px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+   
 
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -163,6 +194,8 @@ h2 {
     font-weight: 700;
     text-align: center;
     line-height: 1.11;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 h3 {
@@ -180,8 +213,6 @@ h3 {
 p {
     color: var(--SLATE, #434455);
     text-align: center;
-
-
     /* Body */
     font-family: Roboto;
     font-size: 16px;
@@ -201,19 +232,32 @@ p {
 
 .main-heading {
     background: var(--NAVY-BLUE, #2E2F42);
-    /*border: 0;*/
     color: var(--WHITE, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
     width: 1158px;
-    /*height: 600px;*/
     padding-top: 120px;
     padding-bottom: 120px;
-    text-align: center;
     margin: 0;
 }
 
 .button-btn {
     padding: 16px ;
-    border: 48;
+    margin-top: 50px;
+    color: var(--WHITE, #FFF);
+
+    /* Button Text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
 }
 
 footer {
