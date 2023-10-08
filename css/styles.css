@@ -265,6 +265,10 @@ ul.card-content {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .button-container:hover,
